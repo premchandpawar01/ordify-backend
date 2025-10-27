@@ -1,0 +1,18 @@
+# requirements.txt
+# Python dependencies required for both the Flask API and the PyQt application (for PyInstaller)
+
+# --- Flask API Dependencies ---
+Flask
+flask-cors
+mysql-connector-python  # For MySQL database connection
+gunicorn                # Production WSGI server (for Render deployment)
+
+# --- PyQt Application Dependencies (Used for packaging) ---
+PyQt6
+requests                # Used by the desktop app to communicate with the Flask API
+
+# --- Utility Libraries ---
+# Used for PDF generation, Excel export, and date handling
+Pillow                  # Often needed for image manipulation/PDF generation
+reportlab               # Common library for generating PDFs
+openpyxl                # For writing Excel (.xlsx) files
