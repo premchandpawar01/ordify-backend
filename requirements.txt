@@ -16,3 +16,4 @@ requests                # Used by the desktop app to communicate with the Flask 
 Pillow                  # Often needed for image manipulation/PDF generation
 reportlab               # Common library for generating PDFs
 openpyxl                # For writing Excel (.xlsx) files
+fpdf2 # Added for PDF generation
